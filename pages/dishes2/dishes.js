@@ -212,9 +212,9 @@ Page({
     this.finger['x'] = e.touches["0"].clientX - 20;
     this.finger['y'] = e.touches["0"].clientY - 20;
    // console.log(this.finger)
- //   topPoint['x'] = this.busPos['x']
- topPoint['x'] = 220
-    topPoint['y'] =50
+    topPoint['x'] = this.busPos['x']
+// topPoint['x'] = 220
+    topPoint['y'] =(this.finger['y']-16)/2+16
    
     console.log(topPoint)
     // if (this.finger['y'] < this.busPos['y']) {
