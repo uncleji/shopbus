@@ -30,14 +30,12 @@
   </view>
 
 </view>
-<!--飞入购物车  -->
-<view class="botton_box"  hidden="{{hide_good_box}}" animation="{{animation}}" style="left: {{bus_x}}px; top: 26px;height:{{bus_y}}px;width:30px" >
-  <view class="good_box" >
-  </view>
+<!--飞入购物车  --> 
+    <view class="good_box" hidden="{{hide_good_box}}" style="left: {{bus_x}}px; top: {{bus_y}}px;">
+      <!-- <image src="../image/sp_user.jpg"></image> -->
+    </view> 
 
-  <!-- <view class="good_box" hidden="{{hide_good_box}}" style="transform:translate({{bus_x}}px, {{bus_y}}px);left: {{bus_x}}px; top: {{bus_y}}px;" animation="{{animation}}"> -->
-  <!-- <image src="../image/sp_user.jpg"></image> -->
-</view>
+
 
 <!-- cart
 <view class="cart">

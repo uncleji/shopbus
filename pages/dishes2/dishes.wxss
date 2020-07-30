@@ -74,30 +74,31 @@
   background: #ddd;
 }
 
-@keyframes spin2 {
-  to {
-    transform: translate(-50%, -50%) rotate(0turn) translate(-50%, -100px) translate(50%, 50%) rotate(0.55turn) translate(50%, 100px);
-  }
+.out {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: relative;
 }
 
-.botton_box {
-  width:30px;
+.button_box {
+  width: 166px;
+  height: 290px;
   position: absolute;
-  overflow: hidden;
-  left: 0;
-  top: 0;
+  top: 166px;
+  right: 20px;
+  /* transform: rotate(90deg); */
+  z-index: 1000;
+  background: red;
 }
 
 .good_box {
-  position: absolute;
-  width: 30px;
-  height: 30px; 
-  bottom:0;
-  overflow: hidden;
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute; 
   background: rgb(254, 209, 6);
   border-radius: 100%;
   z-index: +99;
-  /* animation:  spin2 1s infinite linear; */
 }
 
 .good_box image {
@@ -110,7 +111,7 @@
   width: 60rpx;
   height: 60rpx;
   float: right;
-  margin: 20rpx 20rpx;
+  margin: 20rpx 60rpx 20rpx 20rpx;
 }
 
 .top {
